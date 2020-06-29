@@ -1,0 +1,13 @@
+[package]
+name = "sql-parser-rust"
+version = "0.1.0"
+authors = ["Hitrel <hitrel@outlook.com>"]
+edition = "2018"
+build = "build.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lalrpop-util = "0.19"
+
+[build-dependencies]
+lalrpop = "0.19"
